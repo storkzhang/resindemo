@@ -11,4 +11,9 @@ public class HelloController {
     public String index() {
         return "@hello world";
     }
+
+    @Get("hello")
+    public String hello() {
+        return "@hello world, too";
+    }
 }
